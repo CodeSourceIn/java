@@ -4,17 +4,20 @@ public class WhileLoopWithBreak {
 	public static void main(String[] args) {
 		System.out.println("Without break statement in while loop");
 		System.out.println("-------------------------------------");
-		for(int i=1;i<=10;i++) {
+		int i=1;
+		while(i<=10) {
 			System.out.print(i+",");
+			i++;
 		}
 		System.out.println("\n");
 		System.out.println("With break statement in while loop");
 		System.out.println("----------------------------------");
-		for(int i=1;i<=10;i++) {
+		while(i<=10) {
 			if(i == 5) {
 				break;
 			}
 			System.out.print(i+",");
+			i++;
 		}
 	}
 }
