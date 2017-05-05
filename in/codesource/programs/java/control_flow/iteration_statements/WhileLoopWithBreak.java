@@ -12,6 +12,7 @@ public class WhileLoopWithBreak {
 		System.out.println("\n");
 		System.out.println("With break statement in while loop");
 		System.out.println("----------------------------------");
+		i=1;
 		while(i<=10) {
 			if(i == 5) {
 				break;
