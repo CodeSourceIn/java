@@ -4,17 +4,21 @@ public class DoWhileLoopWithBreak {
 	public static void main(String[] args) {
 		System.out.println("Without break statement in do while loop");
 		System.out.println("----------------------------------------");
-		for(int i=1;i<=10;i++) {
+		int i=1;
+		do {
 			System.out.print(i+",");
-		}
+			i++;
+		}while(i<=10);
 		System.out.println("\n");
 		System.out.println("With break statement in do while loop");
 		System.out.println("-------------------------------------");
-		for(int i=1;i<=10;i++) {
+		i=1;
+		do {
 			if(i == 5) {
 				break;
 			}
 			System.out.print(i+",");
-		}
+			i++;
+		}while(i<=10);
 	}
 }
