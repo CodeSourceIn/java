@@ -1,6 +1,6 @@
 package in.codesource.programs.java.declarations.arrays;
 
-public class ArrayDeclarations {
+public class ArrayDeclaration {
 	public static void main(String[] args) {
 		float a[];
 		a = new float[5];
