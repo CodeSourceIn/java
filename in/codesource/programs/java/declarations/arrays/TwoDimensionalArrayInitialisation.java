@@ -9,8 +9,8 @@ public class TwoDimensionalArrayInitialisation {
                 { 4, 40 },
                 { 5, 50 }
         };
-        System.out.println("Two Dimensional Array");
-        System.out.println("------------------------");
+        System.out.println("Two Dimensional Array Initialisation");
+        System.out.println("------------------------------------");
         for ( int i = 0; i < 5; i++ ) {
             for ( int j = 0; j < 2; j++ ) {
                 System.out.println("a[" + i + "][" + j + "] = " + a[i][j] + " ");
