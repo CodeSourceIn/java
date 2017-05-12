@@ -1,4 +1,4 @@
-package in.codesource.programs.java.operations_and_expressions;
+package in.codesource.programs.java.operators_and_expressions;
 
 public class RelationalOperators {
     public static void main(String [] args) {
