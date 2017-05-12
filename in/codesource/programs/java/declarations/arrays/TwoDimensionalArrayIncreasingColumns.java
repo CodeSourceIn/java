@@ -1,8 +1,8 @@
 package in.codesource.programs.java.declarations.arrays;
 
-public class TwoDimensionalArrayUnequalColumns1 {
+public class TwoDimensionalArrayIncreasingColumns {
     public static void main(String [] args) {
-        System.out.println("Two Dimensional Array Unequal Columns");
+        System.out.println("Two Dimensional Array Increasing Column Size");
         int a[][] = new int [5] [];
         a[0] = new int [1];
         a[1] = new int [2];
