@@ -21,10 +21,10 @@ public class BinaryandShiftOperator {
         c = a << 2; /* 148 = 1001 0100 */
         System.out.println(a + " << 2 = " + c);
 
-        c = a >> 2; /* 9 = 0000 1001 */
+        c = 22 >> 2; /* 9 = 0000 1001 */
         System.out.println(a + " >> 2  = " + c);
 
-        c = a >>> 2; /* 9 = 0000 1001 */
+        c = 22 >>> 2; /* 9 = 0000 1001 */
         System.out.println(a + " >>> 2 = " + c);
     }
 }
